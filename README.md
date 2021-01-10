@@ -45,3 +45,11 @@ lopettaa X:n tarjoaman palvelun käytön, se välittää X:lle luvun nolla. Sen 
 sovelluksen X tulee sulkea TCP-yhteys palvelimeen Y, lopettaa mahdollisesti kesken olevat
 summauspalvelijat ja lopulta itse sovelluksen X suorituksen. Jos uteluissa on yli minuutin
 tauko, tulee X:n sulkea itsensä hallitusti.
+
+To Use:
+  1st run the WorkDistributor progmram 
+  2nd run the SovellusX in src file
+  SovellusX's printer will answer 3 Questions
+    Q1: The Sum of all the summingservices
+    Q2: Summingservice with highest value
+    Q3: Amount of transferred values
